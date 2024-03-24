@@ -1,0 +1,68 @@
+* Custom CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #6acfe162;
+    color: #c18c8c;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #c1d8d6d8;
+}
+
+.product {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fcf5e08a;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgba(25, 92, 169, 0.353);
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* 10% of the viewport height */
+}
